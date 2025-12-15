@@ -1,0 +1,28 @@
+# Binaries (file executable)
+*.exe
+*.dll
+*.so
+*.dylib
+be/tmp/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+*.out
+go.work
+go.work.sum
+
+# Dependencies
+be/vendor/
+
+# Next.js
+fe/node_modules/
+fe/.next/
+fe/out/
+fe/.env*.local
